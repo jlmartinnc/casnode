@@ -47,7 +47,11 @@ func UploadFileToStorageSafe(user string, tag string, parent string, fullFilePat
 
 // DeleteFileFromStorage deletes file according to the file path.
 func DeleteFileFromStorage(filePath string) bool {
-	affected, err := casdoorsdk.DeleteResource(filePath)
+	resource := &casdoorsdk.Resource{
+		Name: filePath,
+	}
+
+	affected, err := casdoorsdk.DeleteResource(resource)
 	if err != nil {
 		panic(err)
 	}
