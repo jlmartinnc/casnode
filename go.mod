@@ -5,7 +5,7 @@ go 1.23.0
 require (
 	github.com/astaxie/beego v1.12.3
 	github.com/casbin/google-groups-crawler v0.1.3
-	github.com/casdoor/casdoor-go-sdk v0.30.1
+	github.com/casdoor/casdoor-go-sdk v0.40.0
 	github.com/chromedp/chromedp v0.13.2
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/gomarkdown/markdown v0.0.0-20210408062403-ad838ccf8cdd
@@ -15,7 +15,7 @@ require (
 	github.com/mileusna/crontab v1.0.1
 	github.com/mozillazg/go-slugify v0.2.0
 	github.com/sromku/go-gitter v0.0.0-20170828210750-70f7030a94a6
-	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4
+	golang.org/x/net v0.16.0
 	xorm.io/core v0.7.2
 	xorm.io/xorm v0.8.1
 )
@@ -33,9 +33,10 @@ require (
 	github.com/gobwas/httphead v0.1.0 // indirect
 	github.com/gobwas/pool v0.2.1 // indirect
 	github.com/gobwas/ws v1.4.0 // indirect
-	github.com/golang-jwt/jwt/v4 v4.1.0 // indirect
-	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/golang-jwt/jwt/v4 v4.5.0 // indirect
+	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/gomodule/redigo v2.0.0+incompatible // indirect
+	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/css v1.0.0 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/lib/pq v1.10.2 // indirect
@@ -50,12 +51,12 @@ require (
 	github.com/shiena/ansicolor v0.0.0-20200904210342-c7312218db18 // indirect
 	github.com/smartystreets/goconvey v1.7.2 // indirect
 	github.com/stretchr/testify v1.7.0 // indirect
-	golang.org/x/crypto v0.0.0-20210513164829-c07d793c2f9a // indirect
-	golang.org/x/oauth2 v0.0.0-20210514164344-f6687ab2804c // indirect
+	golang.org/x/crypto v0.14.0 // indirect
+	golang.org/x/oauth2 v0.13.0 // indirect
 	golang.org/x/sys v0.29.0 // indirect
-	golang.org/x/text v0.3.5 // indirect
-	google.golang.org/appengine v1.6.6 // indirect
-	google.golang.org/protobuf v1.26.0 // indirect
+	golang.org/x/text v0.13.0 // indirect
+	google.golang.org/appengine v1.6.7 // indirect
+	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 	xorm.io/builder v0.3.6 // indirect
