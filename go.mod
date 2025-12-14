@@ -5,7 +5,7 @@ go 1.23.0
 require (
 	github.com/astaxie/beego v1.12.3
 	github.com/casbin/google-groups-crawler v0.1.3
-	github.com/casdoor/casdoor-go-sdk v0.40.0
+	github.com/casdoor/casdoor-go-sdk v1.40.0
 	github.com/chromedp/chromedp v0.13.2
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/gomarkdown/markdown v0.0.0-20210408062403-ad838ccf8cdd
@@ -36,7 +36,6 @@ require (
 	github.com/golang-jwt/jwt/v4 v4.5.0 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/gomodule/redigo v2.0.0+incompatible // indirect
-	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/css v1.0.0 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/lib/pq v1.10.2 // indirect
